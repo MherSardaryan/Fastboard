@@ -1,0 +1,60 @@
+.block{
+    display: flex;
+    position: relative;
+    top: 14px;
+    padding-left: 17px;
+}
+.leftBlock{
+    position: absolute;
+    right: 0;
+    left: -670px;
+    top: 317px;
+    /* width: 50%; */
+    height: 100%;
+}
+.leftBlock > h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #384558;
+}
+.leftBlock > ul{
+    padding: 40px 0 41px 25px;
+}
+.leftBlock > ul >li{
+
+    color:#384558;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+.leftBlock > h3{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #384558;
+    border-left: 5px solid #159DFF ;
+    padding:11px 0 11px 25px;
+    margin-top: -16px;
+
+}
+.rightBlock{
+    width: 100%;
+}
+.imgUp{
+    top: 161px;
+    position: absolute;
+    left: 245px;
+}
+.itam{
+    position: relative;
+}
+
+/* img  1    23.4%        2   22.083%*/

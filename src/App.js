@@ -6,8 +6,11 @@ import Routing from "./components/Routing";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routing />
+        <div className={'container'}>
+            <Header />
+            <Routing />
+        </div>
+
     </div>
   );
 }

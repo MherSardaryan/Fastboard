@@ -5,7 +5,9 @@
     align-items:center;
     justify-content: space-between;
     list-style: none;
-    margin-right: 182px;
+    margin-right: 143px;
+    align-items: center;
+    gap: 47px;
 }
 .header{
     position: absolute;
@@ -27,7 +29,7 @@
 }
 
 .navbar > ul > a > li{
-    margin: 26px 0px;
+    margin: 24px 0px;
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
@@ -54,7 +56,7 @@
 
 }
 .tel{
-    margin-right: 38px;
+    margin-right: 40px;
     display: flex;
     align-items: center;
     width: 271px;
@@ -71,7 +73,7 @@
 .button{
     color: #fff;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 15.3px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

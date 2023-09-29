@@ -1,0 +1,78 @@
+.block{
+    position: relative;
+}
+.carusell{
+    position: relative;
+    width: 88%;
+    margin: 0 6%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.title{
+    color:#159DFF;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Open Sans;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin: 149px 0px 117px;
+}
+.btn,
+.btn2{
+    position: absolute;
+    z-index: 101;
+    border: none;
+    width: 100px ;
+    height: 100px;
+    background-color: rgba(56, 69, 88, 0);
+    left: 5.7%;
+    margin-top: 48px;
+}
+
+.btn2{
+    rotate: 180deg;
+    left: auto;
+    right: 5.7%;
+}
+.widwCarus{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+    height: 616px;
+}
+.backFone
+{
+
+}
+.backFonetop,
+.backFonebottom{
+    position: absolute;
+    z-index: -1;
+    top: -74px;
+    width: 100%;
+    height: 808.99px ;
+    background-image: url("./img/Rectangle 7.png") ;
+}
+.backFonebottom{
+    top: 191px;
+}
+.linesImg,
+.textimg{
+    position: absolute;
+    z-index: 100;
+    top: 91px;
+    left: 217px;
+    width: 464px;
+
+}
+.linesImg{
+    top: 41px;
+    left: 461px;
+    width: 708px;
+}

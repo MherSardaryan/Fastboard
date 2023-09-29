@@ -2,7 +2,9 @@
     position: relative;
 }
 .cards{
-    margin: 6px 148px;
+    margini-tpo: 6px ;
+    margin-left: 10.4166667%;
+    margin-right: 10.4166667%;
     display: flex;
     justify-content: space-between;
 }
@@ -15,12 +17,12 @@
     padding: 28px 21px;
     width: 353px;
     list-style: square inside url("./img/Frame5l.png");
-    list-style-position: outside;
-
+    list-style-position: outside ;
+    height: 100%;
 }
 .card > img{
 
-    margin-bottom: 66px;
+    margin: 3px 8px  67px 0;
 }
 h4{
     text-align: start;
@@ -37,20 +39,21 @@ h4{
     line-height: normal;
 }
 .ul > li{
-    text-align: start;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%;
-    color: #384558;
-    height: 66px;
-    margin-bottom: 20px;
-    padding: 0 11px ;
+    padding: 0px 0 0 10px;
+    text-align: start;
+    width: 103%;
+    margin-bottom: 17px;
+    margin-left: 2px;
 }
+
+
 .title{
     position: absolute;
-    top: -158px;
+    top: -155px;
     width: 100%;
     text-align: center;
     color: #384558;
