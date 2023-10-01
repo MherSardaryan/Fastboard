@@ -182,3 +182,50 @@ select{
     box-shadow: inset 1px 1px 3px #384558;
     color: #384558;
 }
+
+
+
+
+@media only screen and (max-width: 1202px) {
+    .tel{
+        margin: 0;
+        width: auto;
+        padding: 0 0 0  0 ;
+    }
+    .tel>img,
+    .tel > p{
+        display: none;
+    }
+    .navbar > ul > a > li{
+        font-size: 90%;
+        margin: 5px;
+    }
+    .navbar{
+        margin:0;
+    }
+}
+
+
+
+.burger{
+    display: none;
+}
+.burger > div{
+    width: 30px ;
+    height: 5px;
+    margin: 5px;
+    background-color: #384558;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .burger{
+        display: block;
+    }
+    .header > .logo{
+        margin: 22px 0 16px 10px;
+    }
+    .navbar{
+        display: none;
+    }
+}

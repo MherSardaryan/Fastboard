@@ -58,3 +58,16 @@
 }
 
 /* img  1    23.4%        2   22.083%*/
+@media only screen and (max-width: 1060px) {
+    .leftBlock{
+        position: unset;
+
+         width: 375px;
+        height: 100%;
+    }
+    .rightBlock{
+        width: 375px;
+        position: relative;
+        z-index: -1;
+    }
+}

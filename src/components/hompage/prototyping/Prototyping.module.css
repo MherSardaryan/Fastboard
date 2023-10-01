@@ -2,7 +2,8 @@
     position: relative;
     z-index: 4;
     width: 100vw;
-    height: 1200px;
+    min-height:1200px;
+    max-height: 1800px;
     overflow: hidden;
 }
 .backgraundFone{
@@ -16,11 +17,10 @@
 
 .layer1{
     position: absolute;
-    right: -22px;
+    right: -1.52777778%;
     top: 149px;
     background-image: url("./img/Vector 15.png ");
     background-size: cover;
-
     background-repeat: no-repeat;
     background-position: right;
     height: 155px;
@@ -46,7 +46,7 @@ background-size: cover;
     height: 164px;
     width: 71.111111%;
     position: absolute;
-    right: 70px;
+    right: 4.86111111%;
     top: 944px;
 
  }
@@ -110,4 +110,53 @@ background-size: cover;
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+    .layer1{
+        width: 50%;
+        left: 0;
+    }
+    .layer3{
+        width: 100%;
+        right: 0;
+    }
+}
+
+
+@media only screen and (max-width: 1060px) {
+    .leftBlock{
+        width: 100%;
+    }
+    .itam{
+     width: 100%;
+        overflow: revert;
+    }
+    .leftBlock{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .itam{
+        display: block;
+    }
+    .rightBlock{
+        width: 100%;
+        margin: 0;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .rightBlockItam{
+        display: flex;
+        justify-content: center;
+        overflow: auto;
+    }
 }

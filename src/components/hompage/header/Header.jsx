@@ -12,7 +12,7 @@ export default function Header() {
             <div className={style.logo} >
                 <Link to={'/'} ><img width={'161.18px'} src={whitelogo} alt="Logo"/></Link>
             </div>
-                <div className={style.burger} onClick={ <Navbar props={''} logo={blacklogo}/>}>
+                <div className={style.burger} >
                     <div className={style.line }></div>
                     <div className={style.line1 }></div>
                     <div className={style.line2 }></div>
@@ -26,3 +26,4 @@ export default function Header() {
         </div>
     )
 }
+//onClick={ <Navbar props={''} logo={blacklogo}/>

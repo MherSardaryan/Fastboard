@@ -9,14 +9,15 @@ export default function Routing() {
 
 
 
+
     return (
+
 <Routes>
 
     <Route path={'/'} element={<Hompage />} />
     <Route path={'/events'} element={<Events />}/>
-    { date.map(e => {
-        console.log(<Route path={`/event${e.title}`} element={<CardPage props={e}/> + ''}/>)
-        return <Route path={`/event${e.id}`} element={<CardPage props={e}/>}/>
+    {date.map(e => {
+        return <Route path={`/event` + e.id} element={<CardPage props={e}/>}/>
 
     })}
 
