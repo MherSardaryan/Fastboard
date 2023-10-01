@@ -69,3 +69,33 @@ h4{
     margin:100px ;
 
 }
+@media only screen and (max-width: 1330px) {
+    .cards{
+        margin: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .cards{
+        display: block;
+    }
+    .card{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card>h4{
+        position: absolute;
+        width: 80%;
+        top: -20px;
+    left: 2% ;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .ul1{
+        padding: 28px 0;
+    }
+}

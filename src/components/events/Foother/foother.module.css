@@ -1,0 +1,51 @@
+.block{
+    background-color: #384558;
+    color: #FFFFFF;
+    padding: 49px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 67.5%;
+    padding: 5px 67px 0 0px;
+    margin-right: 56px;
+
+}
+.table  ul{
+    list-style: none;
+}
+.table  ul li{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.table  ul .tableLi{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 27px;
+}
+
+.text{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin:21px 0 0 7px ;
+}
+.c{
+    margin-top: 165px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}

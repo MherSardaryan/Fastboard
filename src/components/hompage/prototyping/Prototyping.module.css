@@ -13,6 +13,7 @@
     height: 100%;
     overflow: hidden;
 }
+
 .layer1{
     position: absolute;
     right: -22px;
@@ -108,4 +109,5 @@ background-size: cover;
     background-color: #384558;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }

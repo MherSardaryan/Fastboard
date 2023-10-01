@@ -31,9 +31,9 @@ opacity: 1;
     background-size: cover;
 }
 .setka{
-    margin-left: 34%;
+    margin-left: 32%;;
     position: absolute;
-    top: 72px;
+    top: 70px;
     z-index: 2;
     background-image: url("./img/setka.png");
     width: 100%;
@@ -47,7 +47,7 @@ opacity: 1;
 }
 .itam:first-child{
     margin-top:83px ;
-    margin-left: 208px;
+    margin-left: 14.4%;
 }
 .text{
 
@@ -117,4 +117,14 @@ opacity: 1;
 .statickJpg{
     margin-top: -61px;
     margin-left: 3px;
+
+}
+@media only screen and (max-width: 500px) {
+    .itam:first-child{
+        margin-top:83px ;
+        margin-left: 0%;
+    }
+    .title{
+        font-size: 50px;
+    }
 }

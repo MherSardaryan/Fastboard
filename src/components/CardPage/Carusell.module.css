@@ -1,0 +1,48 @@
+.block{
+
+}
+
+.carusell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12.83% 18% 2.5%;
+    height: 459px;
+}
+.btn,
+.btn2{
+    background: none;
+    border: none;
+}
+.btn2{
+    rotate: 180deg;
+
+}
+.widwCarus{
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 466px;
+        padding: 0 50px;
+}
+.galerySection{
+    padding:  0 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galery{
+    display: flex;
+    width: 80px;
+    height: 84px;
+    padding: 0px ;
+    flex-direction: column;
+    align-items: flex-start;
+
+    flex-shrink: 0;
+    border: 5px solid #FFFFFF;
+    overflow: hidden;
+}
+.borderline{
+    border: 5px solid #2E6BE2;
+}

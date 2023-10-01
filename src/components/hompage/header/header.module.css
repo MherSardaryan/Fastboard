@@ -1,13 +1,22 @@
 .header,
 .navbar > ul{
     display: flex;
-    width: 460px;
     align-items:center;
     justify-content: space-between;
     list-style: none;
-    margin-right: 143px;
+
     align-items: center;
-    gap: 47px;
+
+}
+.navbar > ul{
+    display: flex;
+    width:  100%;
+    align-items:center;
+    justify-content: space-between;
+    list-style: none;
+    /*padding: -1% 17% 0 0;*/
+    align-items: center;
+
 }
 .header{
     position: absolute;
@@ -16,8 +25,13 @@
     z-index: 100;
     width: 100%;
     border-bottom: 1px solid rgba(131, 131, 131, 0.21);
+    background-color: #8C97A6;
+}
+.navbar{
+    margin-left: 12% ;
 }
 .navbar > ul > a{
+    text-align: start;
     text-decoration: none;
     color: #FFF;
     font-family: Inter;
@@ -25,22 +39,29 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    width: 25%;
 
 }
 
 .navbar > ul > a > li{
-    margin: 24px 0px;
+
+    margin: 24px 16px;
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+
+
+
 }
 .logo{
     display: flex;
     align-items: center;
-    margin: 22px auto auto 40px;
+    margin: 22px 0 16px 40px;
+
 }
 
 .manu{
@@ -82,4 +103,132 @@
     padding: 7px 15px;
     border: none;
     margin-left: 20px;
+}
+.navbar > ul > a  >.eventColor{
+    color: #384558;
+    position: relative;
+    z-index: 1110;
+}
+option{
+    border: none;
+}
+select{
+    border: none;
+}
+.tel > .eventColor{
+    color: #384558;
+}
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////modal////////////////////////////////////////*/
+
+
+.modalManu{
+    position: absolute;
+    list-style: none;
+    margin-top: 23px;
+    background-color: #384558;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width:  auto  ;
+    height: auto;
+}
+.modalManu >a> li{
+    position: relative;
+    z-index: 1111;
+    padding: 5px 5px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    width: 150px;
+}
+.manu1_in{
+    position: absolute;
+    z-index: 1111;
+    top: 100%;
+    left: 0;
+    list-style: none;
+}
+.manu1_in > a >li{
+    background-color: rgba(56, 69, 88, 0.87);
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    box-shadow: inset -1px -1px 3px #fff;
+    font-weight: 300;
+    transition: 1s;
+    width: 150px;
+}
+.manu1_in > a >li:hover{
+    background-color: rgba(255, 255, 255, 0.92);
+    box-shadow: inset 1px 1px 3px #384558;
+    color: #384558;
+}
+.modalOpen{
+
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh  ;
+}
+.modLi{
+    width: 153px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1202px) {
+    .tel{
+        margin: 0;
+        width: auto;
+        padding: 0 0 0  0 ;
+    }
+    .tel>img,
+    .tel > p{
+        display: none;
+    }
+    .navbar > ul > a > li{
+        font-size: 90%;
+        margin: 5px;
+    }
+    .navbar{
+        margin:0;
+    }
+}
+
+
+
+.burger{
+    display: none;
+}
+.burger > div{
+    width: 30px ;
+    height: 5px;
+    margin: 5px;
+    background-color: #384558;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .burger{
+        display: block;
+    }
+   .header > .logo{
+       margin: 22px 0 16px 10px;
+    }
+    .navbar{
+        display: none;
+    }
 }

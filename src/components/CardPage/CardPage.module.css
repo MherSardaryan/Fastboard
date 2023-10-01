@@ -1,0 +1,216 @@
+.block{
+
+}
+.bannerTop{
+    background-color: rgba(56, 69, 88, 0.51);
+    position: relative;
+    overflow: hidden;
+    height: 681px;
+}
+.bannerTop >img{
+   position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.bannerTop > div >h1{
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 50.4px */
+    text-transform: uppercase;
+    color:#FFFFFF;
+    padding: 377px 394px 19px 212px;
+
+}
+.bannerTop > .line{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+.container{
+    padding: 82px 0 0 209px;
+}
+.container > button{
+    background: var(--2, linear-gradient(306deg, #0BB2F2 10.63%, #2E6BE2 83.88%));
+    display: inline-flex;
+    padding: 20px 66px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    text-transform: uppercase;
+    border: none;
+}
+
+
+.thime{color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    margin: 23px 8px;
+
+    word-spacing: -3px;
+}
+.information{
+    padding: 0px 16% 0 3.5%;
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    border-left: 5px solid #159DFF;
+}
+
+.information > p{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 29.4px */
+}
+
+.container > h3{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 32.4px */
+    margin: 103px 0 21px;
+}
+.container > ul{
+    margin-left: 27px;
+    padding-right: 17%;
+}
+.container > .ulunder{
+    margin-top: 124px;
+}
+.container > ul >li{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 25.2px */
+}
+
+
+
+
+
+.spicers{
+    padding:3.69% 14.5%;
+}
+.spicers >h3{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 32.4px */
+    margin-bottom: 50px;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+    margin-top: 33px
+}
+.info > h2  {
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 25.2px */
+    margin:1px 0 8px;
+}
+.info{
+    padding: 0 37px;
+}
+.info > p{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.register{
+    text-align: center;
+    background-color: #F6F8FB;
+    color: #FFFFFF;
+    margin: 128px 0 0 0;
+    padding: 29px 0 55px;
+}
+.register > h2 {
+    color: var(--colors-black, #384558);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+}
+.register > p {
+    color: var(--colors-black, #384558);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 25.2px */
+    margin: 14px auto;
+}
+.register > button {
+border: none;
+    background: var(--2, linear-gradient(306deg, #0BB2F2 10.63%, #2E6BE2 83.88%));
+    display: inline-flex;
+    padding: 20px 52px;
+    color: #FFFFFF;
+    align-items: flex-start;
+    color: var(--colors-white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    text-transform: uppercase;
+    margin-top: 43px;
+}
+.potos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 117px 0 0 0;
+}
+.photo{
+    width: 150px;
+    height: 140px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+
+
+
+.chat{
+    width: 100px;
+    position: sticky;
+    z-index: 1000;
+    left: 90%;
+
+    bottom: 100px;
+    cursor: url("./img/Pointer Copy.png"),pointer;
+}
+.chat:hover{
+    transform: scale(-90%);
+}

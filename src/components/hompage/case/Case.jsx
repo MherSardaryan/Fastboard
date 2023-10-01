@@ -8,6 +8,7 @@ import linesImg from './img/Frame (10).png'
 
 let i = 0
 export default function Case() {
+
     const img = [
         <div className={style.widwCarus}>
             <img className={style.textimg} src={textimg} alt=""/>
@@ -22,13 +23,11 @@ export default function Case() {
     const[state,setState] = useState(img[i])
     function btncontrolPluce(){
         i === img.length-1 ? i = 0 : i++
-        console.log(i)
        return  setState(img[i])
     }
     setTimeout( btncontrolPluce,4000)
     function btncontrol(){
         i === 0 ? i = img.length-1 : i--
-        console.log(i)
         return  setState(img[i])
     }
     return (
