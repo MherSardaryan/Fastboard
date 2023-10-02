@@ -7,6 +7,7 @@ import date from './events/eventsList/index'
 import Blog from "./blogpage/Blog";
 import Articlespage from "./Articlespage/Articlespage";
 import Blockitam from "./blogpage/blogitam/Blockitam";
+import Management from "./Management/Management";
 
 export default function Routing() {
 
@@ -26,7 +27,8 @@ export default function Routing() {
 
     })}
     <Route path={'/Blosgid632165' } element={<Blockitam />} />
-    {/*<Route path={`/event${e.title}`} element={<CardPage props={''}/>} />*/}
+    <Route path={'/managment'} element={<Management />} />
+
 </Routes>
     )
 }

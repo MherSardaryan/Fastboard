@@ -28,8 +28,10 @@ export default function Workingwithdata() {
 
 
             </div>
+            <div className={'container'}>
+                <Backgraundgrey />
+            </div>
 
-            <Backgraundgrey />
         </div>
     )
 }

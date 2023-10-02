@@ -6,7 +6,6 @@
     max-height: 1000px;
     flex-shrink: 0;
     background-image: url("./img/i2.png");
-    mix-blend-mode: hard-light;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -81,7 +80,7 @@ opacity: 1;
 }
 .btnInitroOne{
     border-radius: 30px;
-    background: var(--colors-1, #159DFF);
+    background:  #159DFF;
     height: 52px;
     padding: 5px 25px;
     justify-content: center;

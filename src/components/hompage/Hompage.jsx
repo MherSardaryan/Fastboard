@@ -11,7 +11,7 @@ import Header from "./header/Header";
 
 export default function Hompage() {
     return (
-        <div>
+        <div className={'container'}>
             <div className="header">
                 <Header />
             </div>

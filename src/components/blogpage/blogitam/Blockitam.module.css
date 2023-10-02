@@ -1,6 +1,10 @@
 .block{
 
 }
+.thisblock{
+    position: relative;
+    height: 2200px;
+}
 all{
     position: relative;
     height: 1300px;
@@ -219,4 +223,38 @@ all{
     bottom: 128px;
     width: 60%;
     right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thisblock{
+    display: flex;
+}
+.burgerTools{
+    background-color: #8C97A6;
+    position: relative;top: 0;left: 0;
+
+
+    height: 3000px ;
+
+}
+.burgerTools > img{
+    margin: 10px;
 }

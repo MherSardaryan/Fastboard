@@ -1,5 +1,6 @@
 .block{
     position: relative;
+    z-index: 1;
     min-height: 895px;
     max-height: 1000px;
     overflow: hidden;
@@ -9,7 +10,7 @@
 }
 .backgraund{
     position: absolute;
-    z-index: -5;
+    z-index: -1;
     top: -200px;
     background-image: url("./img/Rectangle 5 (1).png");
     background-repeat: no-repeat;
