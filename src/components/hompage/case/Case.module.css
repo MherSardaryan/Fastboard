@@ -81,3 +81,11 @@
 .backNone{
     display: none;
 }
+
+@media only screen and (max-width: 1000px) {
+    .linesImg,
+    .textimg{
+        top: 40%;
+        width: 100px;
+    }
+}

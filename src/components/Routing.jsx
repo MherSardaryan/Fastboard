@@ -4,6 +4,7 @@ import Hompage from "./hompage/Hompage";
 import Events from "./events/Events";
 import CardPage from "./CardPage/CardPage";
 import date from './events/eventsList/index'
+import Blog from "./blogpage/Blog";
 
 export default function Routing() {
 
@@ -15,6 +16,8 @@ export default function Routing() {
 <Routes>
 
     <Route path={'/'} element={<Hompage />} />
+    <Route path={'/blog'} element={<Blog />} />
+    <Route path={'/arcticles'} element={''} />
     <Route path={'/events'} element={<Events />}/>
     {date.map(e => {
         return <Route key={`route${e.id}`} path={`/event${ e.id}` } element={<CardPage props={e}/>}/>

@@ -1,0 +1,207 @@
+.topimg1{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.block{
+    position: relative;
+}
+.topimg2{
+    position: relative;
+    z-index: 1;
+    width: auto;
+    top: -88px;
+    left: 34.7%;
+}
+
+.cointainerblocks{
+    margin: 0px 0 0 210px;
+
+    margin-top: -11px;
+
+}
+
+.back{position: absolute;
+    z-index: -1;
+    top:0;
+    width: 100%;
+    height: 640px;
+    background-image: url("./img/Rectangle 5 (1).png");
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+.topblock > h2{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 57px */
+    text-transform: uppercase;
+}
+.topblock >ul{
+    list-style: none;
+    display: flex;
+}
+.topblock >ul >li{
+    margin: 29px 40px 75px 0px;
+
+}
+.topblock >ul >li:hover a{
+    border-bottom:5px solid #159DFF ;
+    color: #159DFF;
+}
+.topblock >ul >li > a{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+.topblock > p{
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    padding-right: 12%;
+
+}
+
+
+
+
+
+
+
+
+.bottomblock{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:215px 144px 0 0;
+    overflow: hidden;
+}
+.card{
+    display: flex;
+    width: 50%;
+    margin-bottom: 145px;
+}
+.cardText{
+    margin-left: 30px;
+}
+.cardText > h3{
+    color: var(--colors-black, #384558);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 47%;
+
+}
+.cardText >p{
+    color: var(--colors-black, #384558);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 73px 19px 0;
+}
+.cardText >a{
+    border-radius: 30px;
+    border: 1px solid var(--colors-black, #384558);
+    background: #FFF;
+    display: flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--colors-black, #384558);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 113px;
+}
+
+.cardText >a:hover{
+    color: #2E6BE2;
+    background-color: #00b7ff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.foother{
+    margin-top: 422px;
+    padding: 0 0 107px 66px;
+}
+.foother > ul{
+    display: flex;
+}
+.foother > ul > a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--colors-black, #384558);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 49.5px;
+    position: relative;
+}
+.foother > ul > a >img{
+    position: relative;
+    left: 5px;
+}
+.foother > p{
+    position: absolute;
+    bottom: 36px;
+    color: var(--colors-3, #384558);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+}
+.foother > p > span{
+    color: var(--colors-3, #384558);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    margin-left: 64px;
+}
+.footherimg1{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.footherimg2{
+    z-index: -2;
+    position: absolute;
+    bottom: 128px;
+    width: 60%;
+    right: 0;
+}
