@@ -21,7 +21,7 @@ export default function EventsList() {
                 <p>Несколько вводных предложений о разделе. Пока тут будет такой заголовок. Когда появятся рубрики в меню будет выпадашка с ними, а тут выведем заголовок рубрики. Либо можно вывести сю да фильтр по темам. </p>
                 <button className={style.btn}>Предстоящие</button>
                 <button>Прошедшие</button>
-               <Link  to={`/event${date[0].id}`} > <div className={style.cards}>
+               <Link  key={`route${date[0]}`} to={`/event${date[0].id}`} > <div className={style.cards}>
                     <img width={'100%'} src={date[0].img} alt=""/>
                     <div className={style.banner}>
 
@@ -42,7 +42,7 @@ export default function EventsList() {
                     date.map((e ,i) =>{
 
                    if( i > 0 && i<6 && i !==3 )  {
-                       return<Link to={`/event${e.id}`}> <div className={style.card}>
+                       return<Link key={`route${e.id}`} to={`/event${e.id}`}> <div className={style.card}>
                            <div className={style.mdtCard}>
                                <p className={style.dayCard}>{e.date.day}</p>
                                <p className={style.monthCard}>{e.date.month}</p>
@@ -55,7 +55,7 @@ export default function EventsList() {
                            </div>
                        </div> </Link>
                    } else if(i === 3 ){
-                       return <div className={style.orange}>
+                       return<Link key={`route${e.id}`} to={`/event${e.id}`}> <div className={style.orange}>
                            <img className={style.orangeImg} src={orange} alt=""/>
                        <div className={style.card}>
 
@@ -79,6 +79,7 @@ export default function EventsList() {
                            <img className={style.orangeImg1} src={orange} alt=""/>
 
                        </div>
+                       </Link>
                    } else {
                        return ''
                    }
