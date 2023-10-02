@@ -9,7 +9,7 @@ const manu1_in = <ul className={style.manu1_in}>
     <Link to={''}><li>Уроки</li> </Link>
 </ul>
 const manu1_in1 = <ul className={style.manu1_in}>
-    <Link to={''}><li>Статьи</li> </Link>
+    <Link to={'/arcticles'}><li>Статьи</li> </Link>
 
 </ul>
 const manu1 = <ul className={style.modalManu}>

@@ -9,13 +9,13 @@ import icon from './img/Vector 5 (6).png'
         <Link to={''}><li>Уроки</li> </Link>
     </ul>
     const manu1_in1 = <ul className={style.manu1_in}>
-        <Link to={''}><li>Статьи</li> </Link>
+        <Link to={'/arcticles'}><li>Статьи</li> </Link>
 
     </ul>
     const manu1 = <ul className={style.modalManu}>
         <Link to={'/'}><li>Документация</li></Link>
         <Link  ><li className={style.manuLi}>Обучение {manu1_in}</li></Link>
-        <Link ><li className={style.manuLi}>Блог {manu1_in1}</li></Link>
+        <Link to={'/blog'}><li className={style.manuLi}>Блог {manu1_in1}</li></Link>
     </ul>
     const manu2 = <ul className={style.modalManu}>
         <Link to={'/'}><li>Вэбинары</li></Link>

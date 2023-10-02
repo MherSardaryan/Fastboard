@@ -1,0 +1,91 @@
+.block{
+    position: relative;
+    z-index: 10;
+    height: 1150px;
+    width: 100%;
+    margin-top: 89px;
+    overflow: hidden;
+}
+.itam{
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    width: 100%;
+
+    top: 362px;
+    left: -7px;
+}
+.leftBlock{
+    position: absolute;
+    margin-left: 231px;
+     width: 100%;
+    height: 100%;
+}
+.leftBlock > h2{
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    color: #384558;
+}
+.leftBlock > ul{
+    padding: 35px 0 41px 46px;
+}
+.leftBlock > ul >li{
+
+    color:#384558;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 15.8px;
+
+}
+.leftBlock > h3{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #384558;
+    border-left: 5px solid #159DFF;
+    padding: 14px 0 12px 30px;
+    margin-top: -19px;
+}
+
+
+.rightBlock{
+    position: absolute;
+    z-index: 20;
+    top: 359px;
+    left: 48%;
+    width: 816px;
+    height: 590px;
+
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+.rightBlockItam{
+    position: absolute;
+    width: 816px;
+    height: 590px;
+    background-color: #384558;
+    border-radius: 40px;
+    top: -5%;
+    left: 3.55%;
+}
+.img22,
+.img11{
+    position: relative;
+    left: 67px;
+    top: 5px;
+    z-index: 25;
+}
+.img22{
+    top: 9px;
+    left: 104px;
+}
