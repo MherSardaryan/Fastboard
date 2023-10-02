@@ -7,7 +7,9 @@ import Header from "./header/Header";
 export default function Events() {
     return (
         <div className={style.block}>
-            <Header />
+            <div className="header">
+                <Header />
+            </div>
             <Topevent />
             <EventsList />
             <Footherevent />

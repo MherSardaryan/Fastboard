@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <div className={style.header}>
             <div className={style.logo} >
-                <Link to={'/'} ><img width={'161.18px'} src={whitelogo} alt="Logo"/></Link>
+                <Link to={'/'} ><img  src={whitelogo} alt="Logo"/></Link>
             </div>
                 <div className={style.burger} >
                     <div className={style.line }></div>

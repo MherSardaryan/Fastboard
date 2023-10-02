@@ -17,7 +17,7 @@ export default function Initro() {
 
                 </div>
                 <div>
-                    <img className={style.statickJpg} width={"525.18px"} src={statickJpg} alt=""/>
+                    <img className={style.statickJpg} src={statickJpg} alt=""/>
                 </div>
 
             </div>

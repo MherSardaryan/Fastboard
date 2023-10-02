@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 .container{
-  width: 100%;
+  max-width: 1440px;
+  min-width: 320px;
   margin: 0 auto;
 }
 body{
@@ -12,4 +13,23 @@ body{
 }
 a{
   text-decoration: none;
+}
+.cont{
+  background-color: #FFFFFF;
+}
+@media only screen and (min-width: 1480px) {
+.header{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+  .App{
+
+    z-index: -100;
+    padding:0 10%;
+    overflow: hidden;
+    background-image: url("https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40697/FreevectorWhite-BackgroundAS0821_generated.jpg");
+    /*background-color: #8C97A6;*/
+    background-size: cover;
+  }
 }

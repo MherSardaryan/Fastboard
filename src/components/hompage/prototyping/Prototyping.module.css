@@ -4,6 +4,7 @@
     width: 100vw;
     min-height:1200px;
     max-height: 1800px;
+    max-width: 1440px;
     overflow: hidden;
 }
 .backgraundFone{

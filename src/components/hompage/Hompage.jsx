@@ -12,7 +12,9 @@ import Header from "./header/Header";
 export default function Hompage() {
     return (
         <div>
-            <Header />
+            <div className="header">
+                <Header />
+            </div>
             <Initro />
             <Explanation />
             <Utility />

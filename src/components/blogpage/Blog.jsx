@@ -19,7 +19,9 @@ export default function Blog() {
     </div>
     return (
         <div className={style.block}>
-            <Header />
+            <div className="header">
+                <Header />
+            </div>
             <div>
                 <img className={style.topimg1} src={topimg1} alt=""/>
                 <img className={style.topimg2} src={topimg2} alt=""/>

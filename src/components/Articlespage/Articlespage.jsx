@@ -9,6 +9,7 @@ import iconsvg from "./img/Vector 5 (7).png";
 import footherimg1 from "./img/Rectangle 5.png";
 import footherimg2 from "./img/Vector 17.png";
 
+
 export default function Articlespage() {
 
     return (
@@ -37,7 +38,7 @@ export default function Articlespage() {
                     {
                         date.map((e,i)=>{
                           if( i < 2 ) {
-                              return <div className={style.bannercard}>
+                              return <Link to={'/Blosgid632165'}><div className={style.bannercard}>
                                   <img src={e.img} alt=""/>
                                   <div>
                                       <p>{e.cotegory}</p>
@@ -45,7 +46,7 @@ export default function Articlespage() {
                                       <p>{e.thime}</p>
                                   </div>
                                   <h2>{e.title}</h2>
-                              </div>
+                              </div></Link>
                           } else return ''
                     })
                     }
@@ -54,7 +55,7 @@ export default function Articlespage() {
                     {
                         date.map((e,i)=>{
                             if( i >= 2 ) {
-                                return <div className={style.card}>
+                                return <Link to={'/Blosgid632165'}><div className={style.card}>
                                     <img src={e.img} alt=""/>
                                     <div>
                                         <p>{e.cotegory}</p>
@@ -62,7 +63,7 @@ export default function Articlespage() {
                                         <p>{e.thime}</p>
                                     </div>
                                     <h2>{e.title}</h2>
-                                </div>
+                                </div></Link>
                             } else return ''})}
 
                 </div>

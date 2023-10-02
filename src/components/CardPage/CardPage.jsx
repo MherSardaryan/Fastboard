@@ -9,11 +9,14 @@ import user2 from './img/image 80.png'
 import foother from './img/Rectangle 5 (1).png'
 import chatImg from './img/Group 600.png'
 import ModalChat from "../ui/modal/ModalChat";
+
 export default function CardPage({props}) {
     const [state,setState] = useState('')
     return (
         <div className={style.block}>
-            <Header />
+            <div className="header">
+                <Header />
+            </div>
             <div>
                 <div className={style.bannerTop}>
                     <img  src={props.img} alt=""/>

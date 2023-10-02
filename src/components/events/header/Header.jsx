@@ -13,6 +13,11 @@ export default function Header() {
                <Link to={'/'}> <img width={'161.18px'} src={logo} alt="Logo"/></Link>
             </div>
             <Navbar  />
+            <div className={style.burger} >
+                <div className={style.line }></div>
+                <div className={style.line1 }></div>
+                <div className={style.line2 }></div>
+            </div>
             <div className={style.tel}>
                 <img width={'20px'} src={phone} alt="phone"/>
                 <p className={style.eventColor}>+7 (988) 456-78-99</p>

@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .header,
 .navbar > ul{
     display: flex;
@@ -10,7 +16,7 @@
 }
 .navbar > ul{
     display: flex;
-    width:  100%;
+    width:  133%;
     align-items:center;
     justify-content: space-between;
     list-style: none;
@@ -19,6 +25,7 @@
 
 }
 .header{
+
     position: absolute;
     top: 0;
     left: 0;
@@ -45,7 +52,7 @@
 
 .navbar > ul > a > li{
 
-    margin: 24px 16px;
+    margin: 5% -37%;
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
@@ -62,6 +69,9 @@
     align-items: center;
     margin: 22px 0 16px 40px;
 
+}
+.logo>img{
+    width: 161.18px;
 }
 
 .manu{
@@ -217,7 +227,7 @@ select{
     width: 30px ;
     height: 5px;
     margin: 5px;
-    background-color: #384558;
+    background-color: #ffff;
 }
 
 
@@ -232,3 +242,27 @@ select{
         display: none;
     }
 }
+
+
+
+/*@media only screen and (min-width: 1440px) {*/
+/*    .logo > a>img{*/
+/*        width: 100%;*/
+/*    }*/
+/*    .logo{*/
+/*        width: 10%;*/
+/*    }*/
+/*    .logo>a{*/
+/*        width: 100%;*/
+/*    }*/
+
+
+
+
+/*}*/
+
+/*@media only screen and (min-width: 1440px) {*/
+/*    .header{*/
+/*        */
+/*    }*/
+/*}*/
