@@ -27,7 +27,7 @@ export default function Routing() {
 
     })}
     <Route path={'/Blosgid632165' } element={<Blockitam />} />
-    <Route path={'/managment'} element={<Management />} />
+    <Route path={'/admin'} element={<Management />} />
 
 </Routes>
     )

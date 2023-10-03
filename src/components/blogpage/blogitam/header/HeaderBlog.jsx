@@ -3,7 +3,8 @@ import style from './Header.module.css'
 import {Link} from "react-router-dom";
 import whitelogo from '../../../events/header/img/logo2.png'
 import search from './img/search.png'
-export default function HeaderBlog() {
+export default function HeaderBlog({props}) {
+
     return (
         <div className={style.block}>
             <div className={style.header}>
@@ -11,7 +12,7 @@ export default function HeaderBlog() {
                     <div className={style.logo} >
                         <Link to={'/'} ><img  src={whitelogo} alt="Logo"/></Link>
                     </div>
-                    <h2>Блог</h2>
+                    <h2>{props?props:'Блог' }</h2>
                 </div>
 
                 <div className={style.rightbar}>

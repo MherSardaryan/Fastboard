@@ -7,11 +7,18 @@ import footherimg1 from "../Articlespage/img/Rectangle 5.png";
 import footherimg2 from "../Articlespage/img/Vector 17.png";
 import HeaderBlog from "../blogpage/blogitam/header/HeaderBlog";
 
-const tools = <div>
-    <select name="" id="">
-        <option value="Версия 1.0">Версия 1.0 <img width={'8px'} src={iconsvg} alt=""/></option>
-    </select>
-    <h5>Начало работы</h5>
+
+export default function Management() {
+    const tools = <div className={style.itamTools} >
+        <div className={style.topper}>
+            <select name="" id="">
+                <option value="Версия 1.0">Версия 1.0 <img width={'8px'} src={iconsvg} alt=""/></option>
+            </select>
+            <img width={'25px'} src="https://bajaj-cobrowse.allincall.in/static/EasyAssistApp/img/close-client.jpg" alt=""
+                 onClick={()=>setState(<img width={'30xp'} height={'30px'} src={'https://static.thenounproject.com/png/547171-200.png'} alt="" onClick={()=>setState(state !== tools ? tools : '')}/>)}
+            />
+        </div>
+        <h5>Начало работы</h5>
 
         <p>Добро пожаловать!</p>
         <p>Как устроен Fastboard?</p>
@@ -19,28 +26,24 @@ const tools = <div>
         <p>Быстрый старт</p>
 
 
-    <h5>Панель администратора</h5>
+        <h5>Панель администратора</h5>
 
         <p>Пользователи</p>
         <p>Группы проектов</p>
-    <h5>Менеджер проектов</h5>
-    <h5>Конструктор дашбордов</h5>
+        <h5>Менеджер проектов</h5>
+        <h5>Конструктор дашбордов</h5>
 
-</div>
-export default function Management() {
-    const [state,setState] = useState('')
+    </div>
+    const [state,setState] = useState( <img width={'30xp'} height={'30px'} src={'https://static.thenounproject.com/png/547171-200.png'} alt="" onClick={()=>setState(state !== tools ? tools : '')}/>
+    )
 
     return (
         <div className={style.thisblock}>
             <div className={style.burgerTools}>
-
-
-
-                    <img width={'30xp'} height={'30px'} src={'https://static.thenounproject.com/png/547171-200.png'} alt="" onClick={()=>setState(state === '' ? tools : '')}/>
                 {state}
             </div>
           <div>
-              <HeaderBlog />
+              <HeaderBlog props={'Руководство'}/>
               <div className={style.itamConTexts}>
                   <img src={img2} alt=""/>
                   <h2>Бюджеты и ценообразование в B2B</h2>

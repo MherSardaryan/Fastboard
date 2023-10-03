@@ -3,7 +3,7 @@
 }
 .thisblock{
     position: relative;
-    height: 2200px;
+    height: 2250px;
 }
 all{
     position: relative;
@@ -248,13 +248,66 @@ all{
     display: flex;
 }
 .burgerTools{
-    background-color: #8C97A6;
+    background-color: #F6F8FB;
     position: relative;top: 0;left: 0;
-
+    padding: 42px 30px 0 20px;
 
     height: 3000px ;
+    max-width: 100% ;
 
+}
+.topper > img{
+    margin-left: 20px;
+    height: auto;
+}
+.topper{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
 }
 .burgerTools > img{
     margin: 10px;
+    position: absolute;
+    z-index: 50;
+    right: 0px;
+    top: 15px;
+    left: 1px;
+}
+.itamTools{
+    width: 100%;
+}
+.topper > select{
+    display: flex;
+    width: 193px;
+    height: 40px;
+    padding: 10px 10px 10px 14px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.itamTools>p{
+    color: var(--colors-black, #384558);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
+    margin-left: 25px;
+    margin: 10px 25px;
+}
+.itamTools > h5{
+    color: var(--colors-black, #384558);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px auto;
+    width: 250px;
 }

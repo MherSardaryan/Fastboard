@@ -9,10 +9,12 @@
 }
 .bannerTop >img{
    position: absolute;
-    z-index: -1;
+    z-index: 0;
     width: 100%;
 }
 .bannerTop > div >h1{
+    position: relative;
+    z-index: 1;
     font-family: Inter;
     font-size: 42px;
     font-style: normal;
