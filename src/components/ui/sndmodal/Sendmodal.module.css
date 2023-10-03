@@ -1,0 +1,93 @@
+.itam{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000000000;
+    top: 0;
+    left: 0;
+    background-color: rgba(56, 69, 88, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+
+    width: 550px;
+   padding: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10%  auto auto 30%;
+    z-index: 1000000001111;
+    background-color: #FFFFFF;
+}
+.block > h1
+{
+
+    color: #000;
+
+    whitespace: nowrap;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+label{
+    color: #BBB;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+}
+.block > div >p{
+    margin: 15px 0 ;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 25.2px */
+}
+.block > div > input{
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #CDCDCD;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 25.2px */
+}
+.block > div > button{
+    color: var(--colors-white, #FFF);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 30px;
+    background: var(--2, linear-gradient(306deg, #0BB2F2 10.63%, #2E6BE2 83.88%));
+    display: flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+}
+.blockbtn {
+    margin-top: 25px;
+   display: flex;
+    justify-content: center;
+}
+.x{
+    position: absolute;top: 2px; right: 2px;width: 15px; height: 15px;
+}

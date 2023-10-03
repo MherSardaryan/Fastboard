@@ -4,9 +4,11 @@ import logo from   './img/logo.png'
 import phone from './img/phone-call.png'
 import Navbar from "./Navbar";
 import {Link} from "react-router-dom";
+import SendModal from "../../ui/sndmodal/SendModal";
 export default function Header() {
     const [state,setState] = useState('');
     const [whitelogo , blacklogo] = useState(logo)
+    const [sendBlock , setSendBlock] = useState('')
     return (
         <div className={style.header}>
             <div className={style.logo} >
@@ -21,8 +23,9 @@ export default function Header() {
             <div className={style.tel}>
                 <img width={'20px'} src={phone} alt="phone"/>
                 <p className={state}>(988) 456-78-99</p>
-                <button className={style.button}>Демо-тур</button>
+                <button className={style.button} onClick={()=>setSendBlock(<SendModal props={setSendBlock} /> )}>Демо-тур</button>
             </div>
+            {sendBlock}
         </div>
     )
 }
