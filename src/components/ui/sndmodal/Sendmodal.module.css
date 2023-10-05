@@ -12,12 +12,12 @@
 }
 .block{
 
-    width: 550px;
+    width: 50%;
    padding: 25px;
     position: absolute;
-    top: 0;
-    left: 0;
-    margin: 10%  auto auto 30%;
+    top: 180%;
+    left: 25%;
+    margin:   auto;
     z-index: 1000000001111;
     background-color: #FFFFFF;
 }
@@ -90,4 +90,17 @@ label{
 }
 .x{
     position: absolute;top: 2px; right: 2px;width: 15px; height: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .block{
+        width: 90%;
+        left: 10%
+    }
+}
+@media only screen and (max-width: 600px) {
+    .block{
+        width: 100%;
+        left: 0%
+    }
 }
