@@ -195,6 +195,26 @@ select{
 
 
 
+
+
+
+.burger{
+    display: none;
+}
+.burger > div{
+    width: 30px ;
+    height: 5px;
+    margin: 5px;
+    background-color: #384558;
+}
+@media only screen and (max-width: 1200px) {
+   .header > .navbar > ul {
+        width: auto;
+        margin-right: 0;
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width: 1202px) {
     .tel{
         margin: 0;
@@ -213,20 +233,6 @@ select{
         margin:0;
     }
 }
-
-
-
-.burger{
-    display: none;
-}
-.burger > div{
-    width: 30px ;
-    height: 5px;
-    margin: 5px;
-    background-color: #384558;
-}
-
-
 @media only screen and (max-width: 900px) {
     .burger{
         display: block;

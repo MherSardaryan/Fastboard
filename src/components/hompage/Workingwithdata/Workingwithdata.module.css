@@ -89,3 +89,30 @@
     top: 9px;
     left: 104px;
 }
+
+@media only screen and (max-width: 1336px) {
+    .itam > .leftBlock {
+        z-index: 30;
+        left: -18%;
+        background-color: rgb(232, 0, 0);
+    }
+    }
+@media only screen and (max-width: 940px) {
+    .rightBlock{
+        opacity: 0.4;
+        z-index: 4;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .itam > .leftBlock {
+        width: 370px;
+        left: -37%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .itam > .leftBlock{
+    width: 342px;
+    left: -57%;
+}
+}

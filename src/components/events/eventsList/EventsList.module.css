@@ -125,6 +125,7 @@
 
 
 .card{
+    position: relative;
     margin-top: 60px;
     width: 100%;
     background-color: #FFFFFF;
@@ -287,4 +288,28 @@
 }
 .chat:hover{
     transform: scale(-90%);
+}
+.orangeDivBtn{
+    position: relative;
+    left: 0;
+}
+.orangeDivBtn > button{
+    position: absolute;
+
+}
+@media only screen and (max-width: 1205px) {
+
+    .container{
+    margin: 0 5%;
+
+}
+}
+@media only screen and (max-width: 800px) {
+    .card{
+        display: block;
+        text-align: center;
+    }
+    .mdtCard{
+        width: 100%;
+    }
 }

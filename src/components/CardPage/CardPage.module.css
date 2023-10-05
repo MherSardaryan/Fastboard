@@ -11,6 +11,7 @@
    position: absolute;
     z-index: 0;
     width: 100%;
+
 }
 .bannerTop > div >h1{
     position: relative;
@@ -24,6 +25,10 @@
     color:#FFFFFF;
     padding: 377px 394px 19px 212px;
 
+}
+.background{
+    width: auto;
+    height: 100%;
 }
 .bannerTop > .line{
     position: absolute;
@@ -173,7 +178,7 @@
     margin: 14px auto;
 }
 .register > button {
-border: none;
+    border: none;
     background: var(--2, linear-gradient(306deg, #0BB2F2 10.63%, #2E6BE2 83.88%));
     display: inline-flex;
     padding: 20px 52px;
@@ -215,4 +220,28 @@ border: none;
 }
 .chat:hover{
     transform: scale(-90%);
+}
+
+@media only screen and (max-width: 900px) {
+    .bannerTop{
+        height: 350px;
+    }
+    .container{
+        padding:0 ;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .container > ul{
+        margin-left: 27px;
+        padding-right: 5%;
+    }
+    .information{
+        height: auto;
+padding-right: 0;
+        margin: 50px;
+    }
+    .bannerTop > div >h1{
+        padding:100px 50px 50px 50px;
+        font-size:30px ;
+    }
 }

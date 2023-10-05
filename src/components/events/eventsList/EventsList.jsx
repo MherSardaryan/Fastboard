@@ -65,16 +65,17 @@ export default function EventsList() {
                                        <p className={style.monthCardCrnter}>{e.date.month}</p>
                                        <p className={style.thimeCardCrnter}>в {e.date.time}</p>
                                    </div>
-                                   <img height={'180px'} src={e.img} alt=""/>
+                           <div className={style.orangeDivBtn}>
+                               <img height={'180px'} src={e.img} alt=""/>
+                               <button className={style.orangeBtn}>Подробнее</button>
+                           </div>
                                    <div className={style.textCard}>
                                        <h2 className={style.titleCard}>{e.title}</h2>
                                        <p className={style.infoCard}>{e.info}</p>
                                    </div>
 
                        </div>
-                           <div className={style.orangeDivBtn}>
-                               <button className={style.orangeBtn}>Подробнее</button>
-                           </div>
+
 
                            <img className={style.orangeImg1} src={orange} alt=""/>
 

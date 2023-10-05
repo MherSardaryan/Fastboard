@@ -19,7 +19,7 @@ export default function CardPage({props}) {
             </div>
             <div>
                 <div className={style.bannerTop}>
-                    <img  src={props.img} alt=""/>
+                    <img  className={style.background} src={props.img} alt=""/>
                     <div>
                        <h1>{props.title} в Москве</h1>
                     </div>
