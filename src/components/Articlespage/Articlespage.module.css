@@ -21,7 +21,8 @@
 
 }
 
-.back{position: absolute;
+.back{
+    position: absolute;
     z-index: -1;
     top:-100px;
     width: 100%;
@@ -288,4 +289,32 @@
     font-weight: 800;
     line-height: 120%; /* 21.6px */
     margin-top: 14px;
+}
+@media only screen and (max-width: 970px) {
+    .cointainerblocks{
+        margin: 0;
+        padding: 0;
+    }
+    .topblock{
+        padding: 0;
+    }
+    .bannercard{
+    width: 100%;
+        margin-left: 0;
+    }
+    .card{
+        width: 320px;
+        margin: 0;
+    }
+    .allcards{
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .card > img{
+        width: 100%;
+    }
+    .bannercard > img{
+        width: 100%;
+    }
 }

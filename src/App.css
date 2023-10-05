@@ -37,3 +37,9 @@ a{
     background-size: cover;
   }
 }
+
+button,
+a,
+li{
+  cursor:url("./components/events/eventsList/date_img/Pointer Copy.png"), pointer;
+}

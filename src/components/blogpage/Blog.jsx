@@ -30,7 +30,7 @@ export default function Blog() {
             <div className={style.cointainerblocks}>
                 <div className={style.topblock}>
                     <h2>Блог</h2>
-                    <ul>
+                    <ul className={style.oldNav}>
                         <li><Link>Курсы</Link></li>
                         <li><Link to={'/arcticles'}>Статьи</Link></li>
                         <li><Link>Уроки</Link></li>

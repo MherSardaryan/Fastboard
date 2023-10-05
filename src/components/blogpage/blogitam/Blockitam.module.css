@@ -311,3 +311,16 @@ all{
     margin: 10px auto;
     width: 250px;
 }
+
+@media only screen and (max-width: 1050px) {
+    .rightBlock{
+        display: none;
+    }
+    .leftBlock{
+        width: 100%;
+    }
+    .itamConTexts{
+        margin: 0 3%;
+        text-align: center;
+    }
+}

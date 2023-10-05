@@ -8,6 +8,7 @@
     background-image: url("./img/i2.png");
     background-repeat: no-repeat;
     background-size: cover;
+    animation:block 1s linear ;
 }
 .black{
     position: absolute;
@@ -58,7 +59,7 @@ opacity: 1;
     font-weight: 700;
     line-height: normal;
     margin-top: 28px;
-
+    animation: text 15s;
 }
 .title{
 
@@ -71,7 +72,7 @@ opacity: 1;
     font-weight: 800;
     line-height: 100%; /* 57px */
     text-transform: uppercase;
-
+    animation: title 8s;
 }
 .btns{
     display: flex;
@@ -118,7 +119,9 @@ opacity: 1;
     margin-top: -61px;
     margin-left: 3px;
     min-width:525.18px;
-
+    animation-name: tex;
+    animation-duration: 10s;
+    animation:tex 25s linear 0s infinite ;
 }
 @media only screen and (max-width: 500px) {
     .itam:first-child{
@@ -142,3 +145,24 @@ opacity: 1;
 /*    }*/
 
 /*}*/
+@keyframes tex {
+    from {rotate: 0deg}
+    to {rotate: 360deg}
+}
+@keyframes block {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes title {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes text {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1
+    }
+}
