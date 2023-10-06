@@ -91,7 +91,11 @@ label{
 .x{
     position: absolute;top: 2px; right: 2px;width: 15px; height: 15px;
 }
-
+.error{
+    color: red;
+    position: absolute;
+    top: 207px;
+}
 @media only screen and (max-width: 600px) {
     .block{
         width: 90%;

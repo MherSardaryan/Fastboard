@@ -1,7 +1,33 @@
-import React from 'react'
+import React, {useState} from 'react'
 import style from './Sendmodal.module.css'
 
 export default function SendModal({props}) {
+    const [username,setUsername] = useState('')
+    const [usernameEror , setUsernameError] =useState('')
+    const date = {
+        name:username.split(' ')[0],
+        surname:username.split(' ')[1],
+    }
+    function userType (){
+        setUsernameError('')
+        if(username.split(' ').length < 2){
+            setUsernameError('пожалуйста напишите полное имя и фамилия')
+        }
+        username.split('').forEach(e=>{
+
+        if(e  === '1'||e==='2'||e==="3"||e==="4"||e==="5" ||e==="6" ||e==="7" ||e==="8" ||e==="9" ||e === '0'  ) {
+
+         return  setUsernameError('поле заполнено некорректно')
+        }else  return  ''
+
+
+    })
+
+        console.log(date)
+    }
+function send(){
+    userType()
+}
 
     return (
 <>
@@ -14,9 +40,10 @@ export default function SendModal({props}) {
         <div>
             <h1>Заказать демо</h1>
             <p>Оставьте свои координаты и мы с вами свяжемся в самое ближайшее время</p>
-            <form >
+            <form onClick={send}>
             <label htmlFor="Имя и фамилия">Имя и фамилия </label> <br/>
-            <input type="text" placeholder={'Василий Пупкин'} required/> <br/>
+            <input type="text" placeholder={'Василий Пупкин'}   onChange={(e)=>setUsername(e.target.value)}  value={username}  required/> <br/>
+                <p className={style.error}>{usernameEror}</p>
             <label htmlFor="">Компания</label> <br/>
             <input type="text" placeholder={'Лабуда'} required/> <br/>
             <label htmlFor="">Телефон </label><br/>
@@ -24,7 +51,7 @@ export default function SendModal({props}) {
             <label htmlFor="">Комментарий</label> <br/>
             <input type="text" placeholder={'Звоните срочно!'} required/>
                 <div className={style.blockbtn}>
-                    <button>Отправить</button>
+                    <button >Отправить</button>
                 </div>
             </form>
         </div>

@@ -1,14 +1,14 @@
 import React ,{useState} from 'react'
 import style from './Case.module.css'
 import btnCarusell from './img/Group 597.png'
-import fone from './img/Vector (22).png'
-import textimg from './img/Frame (11).png'
-import linesImg from './img/Frame (10).png'
+// import fone from './img/Vector (22).png'
+// import textimg from './img/Frame (11).png'
+// import linesImg from './img/Frame (10).png'
 
 
 
 export default function Case() {
-    let i = 0
+
     const img = [
         // <div className={style.widwCarus}>
         //     <img className={style.textimg} src={textimg} alt=""/>
@@ -20,34 +20,23 @@ export default function Case() {
         "https://www.emiratestrips.com/media/2020/12/13/373537a1-da88-4746-a81e-969aaae553b0.jpg"
     ]
 
-    const[state,setState] = useState(img[i])
+    const[state,setState] = useState(0)
 
-    function btncontrolPluce(){
-        i === img.length ? i = 0 :i++
-            setState(img[i])
-        console.log(i)
-    }
 
-    function btncontrol(){
-        i === -1 ? i = img.length-1 : i--
-            setState(img[i])
-        console.log(i)
-    }
-    // setTimeout(()=>setState(img[++i]),10000)
     return (
         <div className={style.block}>
             <h2 className={style.title}>Кейсы</h2>
             <div className={style.carusell}>
-                <button className={style.btn}  onClick={btncontrol}>
+                <button className={style.btn} onClick={()=>state === img.length-1 ? setState(0):setState(state+1 )} >
                     <img src={btnCarusell} alt=""/>
                 </button>
 
                 <div className={style.widwCarus}>
-                    <img src={state} alt=""/>
+                    <img src={img[state]} alt=""/>
                 </div>
 
 
-                <button className={style.btn2}  onClick={btncontrolPluce} >
+                <button className={style.btn2}   onClick={()=>state === 0 ? setState(img.length-1):setState(state-1 )}>
                     <img src={btnCarusell} alt=""/>
                 </button>
             </div>

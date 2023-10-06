@@ -14,12 +14,13 @@
 }
 .navbar > ul{
     display: flex;
-    width:  133%;
+
     align-items:center;
     justify-content: space-between;
     list-style: none;
     /*padding: -1% 17% 0 0;*/
     align-items: center;
+    width: 100%;
 }
 .header{
     position: absolute;
@@ -33,7 +34,7 @@
     margin-left: 12% ;
 }
 .navbar > ul > a{
-    text-align: start;
+
     text-decoration: none;
     color: #FFF;
     font-family: Inter;
@@ -41,13 +42,15 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 25%;
+    width: 122px;
+    text-align: center;
+    margin: 0 3%;
 
 }
 
 .navbar > ul > a > li{
 
-    margin: 5% -37%;
+    margin: 5% ;
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
@@ -92,8 +95,9 @@
     font-style: normal;
     font-weight: 700;
 }
-.tel>p{
+.tel>p>a{
     margin-left: 9px;
+    color: #FFFFFF;
 }
 
 .button{
@@ -192,7 +196,10 @@ select{
 }
 
 
+.navbar > ul > a > li{
 
+    margin: 5px;
+}
 
 
 @media only screen and (max-width: 1202px) {
@@ -332,4 +339,7 @@ select{
     to {
         background: var(--2, linear-gradient(306deg,#2E6BE2 10.63%, #0BB2F2  83.88%));
     }
+}
+.headers > .header > .tel >.blackcolor{
+    color: black;
 }

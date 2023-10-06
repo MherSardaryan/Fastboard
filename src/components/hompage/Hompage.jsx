@@ -13,7 +13,7 @@ export default function Hompage() {
     return (
         <div className={'container'}>
             <div className="header">
-                <Header />
+                <Header props={''}/>
             </div>
             <Initro />
             <Explanation />
