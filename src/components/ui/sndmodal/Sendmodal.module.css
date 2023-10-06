@@ -21,7 +21,7 @@
     z-index: 1000000001111;
     background-color: #FFFFFF;
 }
-.block > h1
+.block>div > h1
 {
 
     color: #000;
@@ -52,7 +52,7 @@ label{
     font-weight: 300;
     line-height: 140%; /* 25.2px */
 }
-.block > div > input{
+.block > div > form > input{
     width: 100%;
     display: flex;
     padding: 10px 15px;
@@ -68,7 +68,7 @@ label{
     font-weight: 300;
     line-height: 140%; /* 25.2px */
 }
-.block > div > button{
+.block > div> form>div > button{
     color: var(--colors-white, #FFF);
     font-family: Open Sans;
     font-size: 15px;

@@ -14,19 +14,21 @@ export default function SendModal({props}) {
         <div>
             <h1>Заказать демо</h1>
             <p>Оставьте свои координаты и мы с вами свяжемся в самое ближайшее время</p>
+            <form >
             <label htmlFor="Имя и фамилия">Имя и фамилия </label> <br/>
-            <input type="text" placeholder={'Василий Пупкин'}/> <br/>
+            <input type="text" placeholder={'Василий Пупкин'} required/> <br/>
             <label htmlFor="">Компания</label> <br/>
-            <input type="text" placeholder={'Лабуда'}/> <br/>
+            <input type="text" placeholder={'Лабуда'} required/> <br/>
             <label htmlFor="">Телефон </label><br/>
-            <input type="text" placeholder={'+7 (988) 654-89-78'}/> <br/>
+            <input type="number" placeholder={'+7 (988) 654-89-78'} required/> <br/>
             <label htmlFor="">Комментарий</label> <br/>
-            <input type="text" placeholder={'Звоните срочно!'}/>
+            <input type="text" placeholder={'Звоните срочно!'} required/>
+                <div className={style.blockbtn}>
+                    <button>Отправить</button>
+                </div>
+            </form>
+        </div>
 
-        </div>
-       <div className={style.blockbtn}>
-            <button>Отправить</button>
-        </div>
 
     </div>
 </>
